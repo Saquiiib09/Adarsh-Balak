@@ -48,6 +48,7 @@ padding-right: 1rem;
 .inline{
       display: inline;
       padding: 1rem;
+
 }
 
 /* navigation */
@@ -85,12 +86,25 @@ padding-right: 1rem;
       color:#6b7280;
       margin: auto;
 }
-
-
-/* footers */
-
-
-
+.hero  .hero-heading  .spaml{
+color:var(--primary-color);
+}
 
 
 /* sections */
+.section{
+      text-align: center;
+      padding: 1rem;
+}
+.section1{
+      padding: 1rem;
+      text-align: center;
+      background-color:#d1d5db;
+}
+
+/* footer */
+.footer-header{
+      background-color: var(--primary-color);
+      padding: 2rem 1rem;
+      border-top-right-radius: 1rem;
+}
